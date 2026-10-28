@@ -75,3 +75,17 @@ npm start
 cd frontend
 npm install
 npm run dev
+## API Endpoints
+
+| Method | Endpoint | Purpose |
+|---|---|---|
+| GET | `/api/movies` | View movies |
+| POST | `/api/movies` | Add a movie |
+| GET | `/api/movies/stats` | View statistics |
+| GET | `/api/movies/watch-next` | Find the next movie |
+| PUT | `/api/movies/:id` | Update a movie |
+| DELETE | `/api/movies/:id` | Delete a movie |
+
+## Environment Variables
+
+Configure `MONGO_URI` with your MongoDB Atlas connection string and `PORT` with the backend port.
