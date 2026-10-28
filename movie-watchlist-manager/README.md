@@ -47,3 +47,31 @@ List query parameters: `status`, `genre`, `search`, `page`. Six movies are retur
 - If your exam instructions require `.env` to be present in GitHub, use only a disposable test database and dummy credentials. Prefer submitting `.env.example` unless the evaluator explicitly requires a real `.env`.
 - The auto-generated movie code is created by the backend. For exam-level simultaneous requests, use a dedicated counter collection/atomic update in production; this starter uses a simple query-based sequence and is intended as a learning baseline.
 - Add two screenshots of your running app to this README before submission.
+## Features
+
+- Add movies with title, genre, year, runtime, platform and priority.
+- Track movies as To Watch, Watching or Watched.
+- Rate watched movies from 1 to 10.
+- Search and filter movies.
+- View watchlist statistics.
+- Find the next movie to watch.
+- Edit and delete movies according to status rules.
+
+## Technologies Used
+
+- MongoDB Atlas
+- Express.js
+- React
+- Node.js
+
+## Installation
+
+### Backend
+cd backend
+npm install
+npm start
+
+### Frontend
+cd frontend
+npm install
+npm run dev
